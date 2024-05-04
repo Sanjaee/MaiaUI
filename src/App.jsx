@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Dashboard from "./components/Pages/Dashboard";
-import LoginPage from "./components/Pages/LoginPage";
-import RegisterPage from "./components/Pages/RegisterPage";
-import Verify from "./components/Pages/VerivyPage";
+import LoginPage from "./Pages/LoginPage";
+import RegisterPage from "./Pages/RegisterPage";
+import Dashboard from "./Pages/Dashboard";
+import Verify from "./Pages/VerivyPage";
 
 const App = () => {
   return (

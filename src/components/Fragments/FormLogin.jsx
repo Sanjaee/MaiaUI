@@ -99,7 +99,7 @@ const FormLogin = () => {
       )}
 
       <p className="text-center text-[14px] text-[#2F2F2F] mt-6 font-semibold">
-        Don't have an account?
+        Don't have an account?{" "}
         <Link className="underline" to={"/register"}>
           Sign up
         </Link>

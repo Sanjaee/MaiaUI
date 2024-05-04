@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-import Navbar from "../Elements/Navbar";
-import FormLogin from "../Fragments/FormLogin";
 
-const LoginPage = () => {
+import Navbar from "../components/Elements/Navbar";
+import FormRegister from "../components/Fragments/FormRegister";
+
+const RegisterPage = () => {
   return (
     <>
       <Navbar>
@@ -21,11 +22,11 @@ const LoginPage = () => {
           </Link>
         </div>
       </Navbar>
-      <div className="flex items-center justify-center min-h-screen">
-        <FormLogin />
+      <div className="flex items-center justify-center  px-4">
+        <FormRegister />
       </div>
     </>
   );
 };
 
-export default LoginPage;
+export default RegisterPage;
